@@ -6,13 +6,6 @@ if not isfolder("cinematic/configs") then
     makefolder("cinematic/configs")
 end
 
-print("[Outsecure] Discord Username: " .. OUTSECURE_DISCORD_USERNAME)
-print("[Outsecure] Discord PFP URL: " .. OUTSECURE_DISCORD_PFPURL)
-print("[Outsecure] Discord ID: " .. OUTSECURE_DISCORD_ID)
-print("[Outsecure] Is FFA: " .. tostring(OUTSECURE_IS_FFA))
-print("[Outsecure] Is Premium: " .. tostring(OUTSECURE_IS_PREMIUM))
-print("[Outsecure] Time Left: " .. OUTSECURE_TIME_LEFT)
-
 if not OUTSECURE_NO_VIRTUALIZE then
     OUTSECURE_NO_VIRTUALIZE = function(...) return ... end
 end
@@ -2155,4 +2148,5 @@ players_self_chams_section:ToggleColorpicker({
             end
         end
     end
+
 })
