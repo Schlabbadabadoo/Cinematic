@@ -601,7 +601,7 @@ if OUTSECURE_DISCORD_PFPURL then
 end
 
 function UILibrary:Window()
-    local neverlose_ui = game:GetObjects("rbxassetid://84211763480998")[1]
+    local neverlose_ui = game:GetObjects("rbxassetid://102211681905928")[1]
     
     neverlose_ui.Parent = CoreGui
 
@@ -2150,3 +2150,4 @@ players_self_chams_section:ToggleColorpicker({
     end
 
 })
+
