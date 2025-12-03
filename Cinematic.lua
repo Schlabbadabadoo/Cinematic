@@ -1194,7 +1194,7 @@ do
 			BackgroundTransparency = 1,
 			BorderSizePixel = 0,
 			BorderColor3 = Color3.new(0, 0, 0),
-			Text = "pasta.lua",
+			Text = "Cinematic",
 			TextColor3 = "Accent",
 			AutoButtonColor = false,
 			FontFace = Library.Font,
@@ -3994,3 +3994,4 @@ do
 
 	return Library
 end
+
